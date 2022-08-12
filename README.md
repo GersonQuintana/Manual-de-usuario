@@ -126,7 +126,7 @@ Siguiente pieza a mostrar
 * 4 botones
 ![img1](imagenes/usuario/i13.png)
 
-* 2 matrices led de 8x8
+* 2 matrices led de 8x8 <br>
 ![img1](imagenes/usuario/i14.png)
 
 * 1 potenciometro <br>
