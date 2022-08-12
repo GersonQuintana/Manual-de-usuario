@@ -76,10 +76,10 @@ La rotación de piezas será hacia la izquierda para grupos pares. Para la rotac
 Ejemplo de rotación a la derecha. Por ejemplo:
 
 Orientación inicial de la pieza
-![img1](imagenes/usuario/i5.png)
+![img1](imagenes/usuario/i6.png)
 
 Orientación después de hacer una rotación
-![img1](imagenes/usuario/i6.png)
+![img1](imagenes/usuario/i7.png)
 
 #### **Jugabilidad**
 * El juego inicia con ambas matrices vacías
@@ -97,37 +97,37 @@ Orientación después de hacer una rotación
 Se suma un punto por cada columna de 8 bloques completada, además de tener que eliminar la línea de la visualización y se debe correr hacia la izquierda cualquier estructura a la derecha que no haya sido
 eliminada hasta tener contacto con las columnas restantes o la primera columna de la izquierda. Por ejemplo:
 
-![img1](imagenes/usuario/i7.png)
+![img1](imagenes/usuario/i8.png)
 
 Se suma un punto y se elimina la columna y se corren todas las columnas de la derecha, una posición a la izquierda.
 
-![img1](imagenes/usuario/i8.png)
+![img1](imagenes/usuario/i9.png)
 
 
 #### **Finalizar Juego** 
 El juego termina cuando ya no hay espacio horizontal para más piezas.
 Por ejemplo, el juego terminaría:
 
-![img1](imagenes/usuario/i9.png)
+![img1](imagenes/usuario/i10.png)
 
 Luego de alcanzar este estado se debe mostrar los puntos obtenidos y quedará en espera que se pulse "Start" para regresar al mensaje inicial.
 Menú de Pausa: se entra a este menú presionando el botón Start/Push durante 3 segundos y con el cual se pueden visualizar los puntos acumulados y ver la siguiente pieza a mostrar. Además que permitirá regresar al mensaje (si se mantiene presionado por 2 segundos el botón Start/Push), reanudar el juego (si se mantiene presionado por 3 segundos el botón Start/Push) o reiniciar el juego (si se mantiene presionado por 4 segundos el botón Start/Push). Adicional a lo anterior, si se presiona por más de 5 segundos el botón "Start" Mostrará "EE", un carácter en cada matriz, y quedará esperando a que se pulse el botón "Start" para volver a mostrar el estado de las matrices previo al error.
 
 Cuando se encuentra en este menú y se presiona el botón Start/Push, se intercambia lo que se está visualizando en la pantalla, es decir, si se están visualizando los puntos y se presiona Start/Push, se mostraría ya no el puntaje, si no que la siguiente pieza que se va a generar. Por ejemplo,
 
-![img1](imagenes/usuario/i10.png)
+![img1](imagenes/usuario/i11.png)
 
 Siguiente pieza a mostrar
 
-![img1](imagenes/usuario/i11.png)
+![img1](imagenes/usuario/i12.png)
 
 ## Componentes usados para jugabilidad
 
 * 4 botones
-![img1](imagenes/usuario/i12.png)
-
-* 2 matrices led de 8x8
 ![img1](imagenes/usuario/i13.png)
 
-* 1 potenciometro <br>
+* 2 matrices led de 8x8
 ![img1](imagenes/usuario/i14.png)
+
+* 1 potenciometro <br>
+![img1](imagenes/usuario/i15.png)
